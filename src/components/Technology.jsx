@@ -38,40 +38,28 @@ const Technology = () => {
        transition={{duration:1.5}}
        className="flex flex-wrap items-center justify-center gap-4 mb-20">
         <motion.div 
-        variants={iconVariants(2.5)}
-        initial="initial"
-        animate="animate"
+        
         className="rounded-2xl border-4 border-neutral-800 p-4">
             <VscAzure className="text-7xl text-blue-700"/>
         </motion.div>
         <motion.div 
-        variants={iconVariants(3.5)}
-        initial="initial"
-        animate="animate"className="rounded-2xl border-4 border-neutral-800 p-4">
+        className="rounded-2xl border-4 border-neutral-800 p-4">
             <SiCsharp className="text-7xl text-cyan-500"/>
         </motion.div>
         <motion.div 
-        variants={iconVariants(2)}
-        initial="initial"
-        animate="animate"className="rounded-2xl border-4 border-neutral-800 p-4">
+        className="rounded-2xl border-4 border-neutral-800 p-4">
             <SiDotnet className="text-7xl text-cyan-400"/>
         </motion.div>
-        <motion.div variants={iconVariants(1)}
-        initial="initial"
-        animate="animate"
+        <motion.div
         className="rounded-2xl border-4 border-neutral-800 p-4">
             <TbFileTypeSql className="text-7xl text-green-700"/>
         </motion.div>
         <motion.div 
-        variants={iconVariants(4.5)}
-        initial="initial"
-        animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
+        className="rounded-2xl border-4 border-neutral-800 p-4">
             <DiRedis className="text-7xl text-red-600"/>
         </motion.div>
         <motion.div 
-        variants={iconVariants(2.5)}
-        initial="initial"
-        animate="animate"className="rounded-2xl border-4 border-neutral-800 p-4">
+       className="rounded-2xl border-4 border-neutral-800 p-4">
             <VscGithub className="text-7xl text-cyan-100"/>
         </motion.div>
            
