@@ -34,7 +34,7 @@ const Technology = () => {
       </motion.h1>
       <motion.div 
        whileInView={{opacity:1,z:0}}
-       initial={{opacity:0,z:-10}}
+       initial={{opacity:0,z:-100}}
        transition={{duration:1.5}}
        className="flex flex-wrap items-center justify-center gap-4 mb-20">
         <motion.div 
