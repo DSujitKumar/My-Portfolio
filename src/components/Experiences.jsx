@@ -4,17 +4,16 @@ const Experiences = () => {
   return (
     <div className="border-b border-neutral-900 text-4xl">
       <motion.h1 
-      whileInView={{opacity:1,y:0}}
-      initial={{opacity:0,y:-100}}
-      transition={{duration:1.5}}
-
       className="my-20 text-center text-4xl">
         Experiences 
       </motion.h1>  
         <div>
             {EXPERIENCES.map((experoence,index)=>(
                 <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
-                    <motion.div 
+                    <motion.div
+                    whileInView={{opacity:1,x:0}}
+                    initial={{opacity:0,x:-50}}
+                    transition={{duration:1.5}}
                     className="w-full lg:w-1/4">
                         <p className="mb-2 text-sm text-natural-400">{experoence.year}</p>
                     </motion.div>
