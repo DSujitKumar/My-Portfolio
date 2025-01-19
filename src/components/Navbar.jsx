@@ -15,7 +15,7 @@ const Navbar = () => {
                 <a target="_blank" href="https://github.com/DSujitKumar" ><FaGithub/></a>
                 <a target="_blank" href="http://www.linkedin.com/in/dsujit"> <FaLinkedin/></a>
                 <a href="https://x.com/SujitKuDas_22" target="_blank"><FaSquareXTwitter/></a>
-                <a className="text-sm" target="_blank" href="https://docs.google.com/document/d/e/2PACX-1vS1G4VO7J6fTKp8VZUNOE7ezhmZy2fkUTiVtvjwBLPYHvv3syzIeMseLzp1npLMgucWVXCBf4aCobC0/pub">View Resume</a>
+                <a className="text-sm" target="_blank" href="https://drive.google.com/file/d/1XKJgB2aKgvrWKRsKWh6Urq8WPlaIKTyJ/view?usp=drive_link">View Resume</a>
             </div>
     </nav>;
 }
